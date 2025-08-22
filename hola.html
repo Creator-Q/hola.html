@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>For My Girlfriend</title>
+    <style>
+        body { 
+            font-family: Arial, sans-serif; 
+            background: #ffe4e1; 
+            text-align: center; 
+            padding: 50px;
+        }
+        .container {
+            background: #fff;
+            border-radius: 10px;
+            padding: 30px;
+            max-width: 500px;
+            margin: auto;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        h1 { color: #c71585; }
+        .audio-player { margin: 20px 0; }
+        .spotify-link { margin: 20px 0; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>For My Beautiful Girlfriend</h1>
+        <p>This page is just for you. Enjoy our song and a special track from Spotify!</p>
+        
+        <div class="audio-player">
+            <!-- Put your local song in the project folder and reference its filename here -->
+            <audio controls>
+                <source src="your-song.mp3" type="audio/mp3">
+                Your browser does not support the audio element.
+            </audio>
+            <p>Our Special Song</p>
+        </div>
+
+        <div class="spotify-link">
+            <!-- Replace the link with your favorite Spotify track or playlist -->
+            <iframe style="border-radius:12px" 
+                src="https://open.spotify.com/embed/track/7ouMYWpwJ422jRcDASZB7P?utm_source=generator" 
+                width="100%" height="80" frameBorder="0" allowfullscreen="" 
+                allow="autoplay; clipboard-write; encrypted-media; picture-in-picture" loading="lazy"></iframe>
+            <p>Listen on Spotify</p>
+        </div>
+    </div>
+</body>
+</html>
